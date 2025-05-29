@@ -1,11 +1,118 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>算数オンライン指導 - 【あなたの教室名】</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+</head>
 <body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#">算数オンライン指導 【あなたの教室名】</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">教室について</a></li>
+                    <li><a href="#courses">コース・料金</a></li>
+                    <li><a href="#videos">動画授業</a></li>
+                    <li><a href="#contact">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-<h1>Hello World</h1>
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <h1>未来を拓く算数力！<br>個別指導と動画で徹底サポート</h1>
+                <p>苦手克服から難関校対策まで、あなたの目標に合わせた最適な学びを提供します。</p>
+                <a href="#contact" class="btn-primary">無料体験・資料請求はこちら</a>
+            </div>
+        </section>
 
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>教室について</h2>
+                <p>【あなたの教室名】は、算数に特化したオンライン専門の学習塾です。お子様一人ひとりの学習進度と理解度に合わせて、経験豊富な講師陣が丁寧に指導します。どこにいても質の高い算数教育が受けられるよう、独自のカリキュラムとサポート体制を整えています。</p>
+                <p>個別指導では、お子様の疑問をその場で解決し、弱点を徹底的に克服。動画授業では、基礎から応用まで体系的に学べるコンテンツをいつでもどこでも繰り返し学習できます。</p>
+            </div>
+        </section>
+
+        <section id="courses" class="courses-section">
+            <div class="container">
+                <h2>コース・料金</h2>
+                <div class="course-grid">
+                    <div class="course-card">
+                        <h3>オンライン個別指導</h3>
+                        <p>マンツーマンで徹底指導。お子様のペースで学習を進め、疑問点を解消します。</p>
+                        <ul>
+                            <li>週1回 / 60分</li>
+                            <li>月額〇〇円〜</li>
+                            <li>対象：小学生〜高校生</li>
+                        </ul>
+                        <a href="#" class="btn-secondary">詳細を見る</a>
+                    </div>
+                    <div class="course-card">
+                        <h3>動画授業見放題プラン</h3>
+                        <p>豊富な動画コンテンツで、いつでもどこでも自分のペースで学習できます。</p>
+                        <ul>
+                            <li>基礎から応用まで網羅</li>
+                            <li>月額〇〇円〜</li>
+                            <li>質問対応オプションあり</li>
+                        </ul>
+                        <a href="#" class="btn-secondary">詳細を見る</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="videos" class="videos-section">
+            <div class="container">
+                <h2>動画授業の一部をご紹介</h2>
+                <div class="video-grid">
+                    <div class="video-item">
+                        <iframe width="320" height="180" src="https://www.youtube.com/embed/XXXXXX?si=YYYYYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <p>【小学校算数】分数の計算 基礎</p>
+                    </div>
+                    <div class="video-item">
+                        <iframe width="320" height="180" src="https://www.youtube.com/embed/ZZZZZZ?si=WWWWWW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <p>【中学校数学】一次方程式の解き方</p>
+                    </div>
+                    </div>
+                <p class="video-note">※上記はサンプル動画です。会員登録で全動画が視聴可能です。</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>お問い合わせ・無料体験</h2>
+                <p>ご質問や無料体験のお申し込みは、以下のフォームよりお気軽にお問い合わせください。</p>
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">お名前</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">メールアドレス</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">お問い合わせ内容</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">送信する</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 算数オンライン指導 【あなたの教室名】 All rights reserved.</p>
+        </div>
+    </footer>
 </body>
-
 </html>
